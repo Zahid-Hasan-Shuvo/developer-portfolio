@@ -5,7 +5,7 @@ body{
 .orange-color{
   color: blueviolet;
 }
-section{
+.flexible-container{
   display: flex;
 }
 .half-wigth{
@@ -28,4 +28,37 @@ section{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
   padding: 20px;
+}
+.drim-big{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 150px;
+}
+.experience-item{
+  width: 40%;
+  margin-left: 5%;
+  margin-right:5% ;
+  padding-left: 20px;
+  border-radius: 5px;
+  box-shadow:  10px 10px 10px gray;
+  
+}
+.experience-side{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#web-dev{
+ border-left: 7px solid;
+ border-image:linear-gradient(blue, cyan);
+ border-image-slice: 1;
+}
+#simple-dev{
+  border-left: 7px solid;
+ border-image:linear-gradient(orange, green);
+ border-image-slice: 1;
+}
+footer p{
+  text-align: center;
 }
